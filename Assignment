@@ -1,0 +1,9 @@
+# Assigment on Creating a python Directory
+student = {
+    "student1": {"name": "Dafe", "age": 15, "grade": "A"},
+    "student2": {"name": "Kish", "age": 16, "grade": "B"},
+    "student3": {"name": "Akomaye", "age": 17, "grade": "C"}
+}
+# print all student records
+for Key, record in student.items():
+    print(f"{Key}: {record}")
